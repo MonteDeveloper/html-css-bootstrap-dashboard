@@ -10,6 +10,7 @@
 
 :root{
     --header-height: 70px;
+    --sidebar-width: 70px;
 }
 
 /* general static header height */
@@ -53,4 +54,12 @@ header .my-middleBox input{
 
 header .my-middleBox input:focus{
     box-shadow: none !important;
+}
+
+/* ? SIDEBAR------------------------------- */
+main .my-leftBox{
+    width: var(--sidebar-width);
+    height: calc(100dvh - var(--header-height));
+    background-image: url(../img/sidebar-bg.png);
+    background-color: #0d2337;
 }
