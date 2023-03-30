@@ -25,6 +25,12 @@ header .my-leftBox, header .my-rightBox{
     width: 70px;
 }
 
+@media screen and (min-width: 768px) {
+    header .my-leftBox, header .my-rightBox{
+        width: 150px;
+    }
+}
+
 /* ? SEARCHBAR----------------------------- */
 header .my-middleBox{
     position: relative;
