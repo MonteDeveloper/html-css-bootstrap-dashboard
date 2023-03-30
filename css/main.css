@@ -63,3 +63,14 @@ main .my-leftBox{
     background-image: url(../img/sidebar-bg.png);
     background-color: #0d2337;
 }
+
+/* align the link text in the sidebar */
+main .my-leftBox i{
+    width: 15px;
+}
+
+@media screen and (min-width: 768px) {
+    main .my-leftBox{
+        width: 150px;
+    }
+}
