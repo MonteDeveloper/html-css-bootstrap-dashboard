@@ -87,6 +87,14 @@ main .my-rightBox .my-topBox{
     background-color: #2171e7;
 }
 
+.my-offcanvas{
+    width: 700px !important;
+}
+
+.my-customFile{
+    border: 1px solid #ced4da;
+}
+
 /* ? MY COLORS---------------------------- */
 .my-bgBlue        { background-color: #1c5bb9;}
 .my-bgLightblue   { background-color: #2171e7;}

@@ -32,8 +32,7 @@
                 <!-- SEARCHBAR -->
                 <div class="my-middleBox flex-fill">
                     <i class="fa fa-search"></i>
-                    <input type="text" class="form-control"
-                        placeholder="Prova a cercare: Lezioni di Lavarel">
+                    <input type="text" class="form-control" placeholder="Prova a cercare: Lezioni di Lavarel">
                 </div>
 
                 <!-- NAVBAR -->
@@ -95,10 +94,12 @@
                 <div class="my-topBox container-fluid">
                     <div class="row text-white py-3 g-4">
                         <div class="col-12 col-md-4 col-xl-2 d-flex order-md-last justify-content-md-end">
-                            <a class="text-white text-decoration-none text-nowrap" href="#">
+                            <p class="text-white text-decoration-none text-nowrap" href="#">
                                 Nuovo Studente
-                                <button class="btn btn-outline-light ms-3"><i class="fa-solid fa-plus"></i></button>
-                            </a>   
+                                <button class="btn btn-outline-light ms-3"><i class="fa-solid fa-plus"
+                                        data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+                                        aria-controls="offcanvasRight"></i></button>
+                            </p>
                         </div>
                         <div class="col-12 col-md-4 col-xl-5">
                             <div class="d-flex align-items-baseline">
@@ -111,9 +112,12 @@
                                 <span class="badge rounded-pill my-bgBlue d-inline-block d-xl-none">
                                     <i class="fa-solid fa-plus"></i>
                                 </span>
-                                <span class="badge rounded-pill my-bgBlue d-none d-xl-inline-block">Boolean mobile app</span>
-                                <span class="badge rounded-pill my-bgBlue d-none d-xl-inline-block">Boolean web app</span>
-                                <span class="badge rounded-pill my-bgBlue d-none d-xl-inline-block">Boolean blog app</span>
+                                <span class="badge rounded-pill my-bgBlue d-none d-xl-inline-block">Boolean mobile
+                                    app</span>
+                                <span class="badge rounded-pill my-bgBlue d-none d-xl-inline-block">Boolean web
+                                    app</span>
+                                <span class="badge rounded-pill my-bgBlue d-none d-xl-inline-block">Boolean blog
+                                    app</span>
                             </div>
                         </div>
                         <div class="col-12 col-md-4 col-xl-5">
@@ -132,7 +136,7 @@
                             <div>
                                 <div class="card mb-4">
                                     <div class="card-header">
-                                        <strong>Prossime classi</strong> 
+                                        <strong>Prossime classi</strong>
                                     </div>
                                     <table class="table">
                                         <thead>
@@ -311,40 +315,55 @@
                                     <div class="accordion" id="accordionExample">
                                         <div class="accordion-item">
                                             <h2 class="accordion-header">
-                                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
-                                                    aria-expanded="true" aria-controls="collapseOne">
+                                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                                    data-bs-target="#collapseOne" aria-expanded="true"
+                                                    aria-controls="collapseOne">
                                                     Come aggiungere un nuovo studente?
                                                 </button>
                                             </h2>
-                                            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                                            <div id="collapseOne" class="accordion-collapse collapse show"
+                                                data-bs-parent="#accordionExample">
                                                 <div class="accordion-body">
-                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam perspiciatis iusto, tempore, minima impedit velit neque magnam sint fugit culpa doloribus qui corporis. Ullam, fugit dolores totam voluptatem at aut.
+                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
+                                                    perspiciatis iusto, tempore, minima impedit velit neque magnam sint
+                                                    fugit culpa doloribus qui corporis. Ullam, fugit dolores totam
+                                                    voluptatem at aut.
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="accordion-item">
                                             <h2 class="accordion-header">
-                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                                                    aria-expanded="false" aria-controls="collapseTwo">
                                                     Come posso accedere alle informazioni del mio account?
                                                 </button>
                                             </h2>
-                                            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                            <div id="collapseTwo" class="accordion-collapse collapse"
+                                                data-bs-parent="#accordionExample">
                                                 <div class="accordion-body">
-                                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe vel voluptates earum? Debitis hic, expedita iusto nisi vero saepe laudantium amet aspernatur reiciendis, tempora nemo sint quod doloremque quisquam cumque.
+                                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe vel
+                                                    voluptates earum? Debitis hic, expedita iusto nisi vero saepe
+                                                    laudantium amet aspernatur reiciendis, tempora nemo sint quod
+                                                    doloremque quisquam cumque.
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="accordion-item">
                                             <h2 class="accordion-header">
-                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                                                    aria-expanded="false" aria-controls="collapseThree">
                                                     Posso usare questa dashboard da mobile?
                                                 </button>
                                             </h2>
-                                            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                            <div id="collapseThree" class="accordion-collapse collapse"
+                                                data-bs-parent="#accordionExample">
                                                 <div class="accordion-body">
-                                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos quaerat veritatis doloremque adipisci consequatur illum fugiat odio, cupiditate officiis, quas aut tempora porro dolore amet ipsam maiores cum consectetur debitis!
+                                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                                    Dignissimos quaerat veritatis doloremque adipisci consequatur illum
+                                                    fugiat odio, cupiditate officiis, quas aut tempora porro dolore amet
+                                                    ipsam maiores cum consectetur debitis!
                                                 </div>
                                             </div>
                                         </div>
@@ -364,19 +383,22 @@
                                     <div class="card m-3">
                                         <ul class="list-group list-group-flush">
                                             <li class="list-group-item d-flex">
-                                                <input class="form-check-input col-1" type="checkbox" value="" id="flexCheckDefault">
+                                                <input class="form-check-input col-1" type="checkbox" value=""
+                                                    id="flexCheckDefault">
                                                 <label class="form-check-label ms-2" for="flexCheckDefault">
                                                     Kickoff nuove classi
                                                 </label>
                                             </li>
                                             <li class="list-group-item d-flex">
-                                                <input class="form-check-input col-1" type="checkbox" value="" id="flexCheckDefault">
+                                                <input class="form-check-input col-1" type="checkbox" value=""
+                                                    id="flexCheckDefault">
                                                 <label class="form-check-label ms-2" for="flexCheckDefault">
                                                     Lezione su Bootstrap 5 in classe #75
                                                 </label>
                                             </li>
                                             <li class="list-group-item d-flex">
-                                                <input class="form-check-input col-1" type="checkbox" value="" id="flexCheckDefault">
+                                                <input class="form-check-input col-1" type="checkbox" value=""
+                                                    id="flexCheckDefault">
                                                 <label class="form-check-label ms-2" for="flexCheckDefault">
                                                     Controllare username github studenti
                                                 </label>
@@ -392,21 +414,116 @@
                                     <div class="card m-3">
                                         <img src="./img/stats.jpeg" class="card-img-top" alt="...">
                                         <div class="card-body">
-                                          <h5 class="card-title">Utenti attivi</h5>
-                                          <p class="card-text">Lista degli utenti attivi in piattaforma nell'ultimo mese</p>
+                                            <h5 class="card-title">Utenti attivi</h5>
+                                            <p class="card-text">Lista degli utenti attivi in piattaforma nell'ultimo
+                                                mese</p>
                                         </div>
                                         <ul class="list-group list-group-flush">
-                                          <li class="list-group-item">Gennaio: 1200</li>
-                                          <li class="list-group-item">Febbraio: 800</li>
-                                          <li class="list-group-item">Marzo: 1500</li>
+                                            <li class="list-group-item">Gennaio: 1200</li>
+                                            <li class="list-group-item">Febbraio: 800</li>
+                                            <li class="list-group-item">Marzo: 1500</li>
                                         </ul>
                                         <div class="card-body">
-                                          <a href="#" class="card-link">Visualizza report approfondito</a>
+                                            <a href="#" class="card-link">Visualizza report approfondito</a>
                                         </div>
-                                      </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
+                    </div>
+                </div>
+
+                <!-- COLLAPSE FORM -->
+                <div class="my-offcanvas offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
+                    aria-labelledby="offcanvasRightLabel" data-bs-backdrop="static">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasRightLabel">
+                            Inserisci un nuovo studente
+                        </h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <form class="row">
+                            <!-- NOME -->
+                            <div class="mb-3 col-6">
+                                <label for="inputName" class="form-label">Nome</label>
+                                <input type="text" class="form-control" id="inputName">
+                            </div>
+                            <!-- COGNOME -->
+                            <div class="mb-3 col-6">
+                                <label for="inputSurname" class="form-label">Cognome</label>
+                                <input type="text" class="form-control" id="inputSurname">
+                            </div>
+
+                            <!-- EMAIL -->
+                            <div class="mb-3 col-6">
+                                <label for="inputEmail" class="form-label">Email</label>
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text" id="basic-addon1">@</span>
+                                    </div>
+                                    <input type="email" class="form-control" id="inputEmail">
+                                </div>
+                            </div>
+
+                            <!-- PASSWORD -->
+                            <div class="mb-3 col-6">
+                                <label for="inputPass" class="form-label">Password</label>
+                                <input type="password" class="form-control" id="inputPass">
+                            </div>
+
+                            <!-- INDIRIZZO -->
+                            <div class="mb-3 col-12">
+                                <label for="inputId" class="form-label">Indirizzo</label>
+                                <input type="text" class="form-control" id="inputId">
+                            </div>
+
+                            <div class="mb-3 col-6">
+                                <label for="inputCity" class="form-label">Città</label>
+                                <input type="text" class="form-control" id="inputCity">
+                            </div>
+                            <div class="mb-3 col-4">
+                                <label for="inputState" class="form-label">Stato</label>
+                                <select class="form-control" id="exampleFormControlSelect1">
+                                    <option value="">Scegli...</option>
+                                    <option value="usa">Stati Uniti d'America</option>
+                                    <option value="chn">Cina</option>
+                                    <option value="jpn">Giappone</option>
+                                    <option value="ger">Germania</option>
+                                    <option value="uk">Regno Unito</option>
+                                    <option value="ind">India</option>
+                                    <option value="bra">Brasile</option>
+                                    <option value="rus">Russia</option>
+                                    <option value="kor">Corea del Sud</option>
+                                    <option value="fra">Francia</option>
+                                </select>
+                            </div>
+                            <div class="mb-3 col-2">
+                                <label for="inputCap" class="form-label">CAP</label>
+                                <input type="text" class="form-control" id="inputCap">
+                            </div>
+
+                            <!-- FOTO -->
+                            <div class="mb-3 col-12">
+                                <label for="customFile" class="form-label">Foto</label>
+                                <div class="my-customFile mb-3 rounded">
+                                    <input type="file" id="customFile" name="filename">
+                                </div>
+                            </div>
+
+
+                            <!-- LAST CHOICES -->
+                            <div>
+                                <div class="form-check py-2">
+                                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                    <label class="form-check-label" for="defaultCheck1">
+                                        Seleziona per proseguire
+                                    </label>
+                                </div>
+                                <button type="submit" class="btn btn-primary w-auto">Submit</button>
+                                <button class="btn btn-warning w-auto ms-2">Svuota</button>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>
@@ -414,6 +531,13 @@
     </main>
 
 
+    <script>
+        //name of the file appear on select
+        $(".custom-file-input").on("change", function () {
+            var fileName = $(this).val().split("\\").pop();
+            $(this).siblings(".custom-file-label").addClass("selected").html(fileName);
+        });
+    </script>
     <!-- BS JS IMPORT -->
     <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js'
         integrity='sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4'
