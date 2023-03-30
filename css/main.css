@@ -1,0 +1,50 @@
+/* ! DEBUG--------------------------------- */
+.debug{
+    background-color: #ddd;
+}
+
+/* * GENERAL------------------------------- */
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+:root{
+    --header-height: 70px;
+}
+
+/* general static header height */
+header .my-leftBox{
+    height: var(--header-height);
+}
+
+/* ? IMAGES-------------------------------- */
+
+
+/* ? NAVBAR-------------------------------- */
+header .my-leftBox, header .my-rightBox{
+    width: 70px;
+}
+
+/* ? SEARCHBAR----------------------------- */
+header .my-middleBox{
+    position: relative;
+}
+
+header .my-middleBox .fa-search{
+    position: absolute;
+    font-size: 16px;
+    top: 12px;
+    left: 20px;
+}
+
+header .my-middleBox input{
+    height: 40px;
+    text-indent: 30px;
+    border-radius: 10px;
+    background-color: #e4e4e4 !important;
+    border: none !important;
+}
+
+header .my-middleBox input:focus{
+    box-shadow: none !important;
+}
