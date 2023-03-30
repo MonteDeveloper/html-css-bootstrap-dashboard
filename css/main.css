@@ -1,7 +1,5 @@
 /* ! DEBUG--------------------------------- */
-.debug{
-    background-color: #ddd;
-}
+
 
 /* * GENERAL------------------------------- */
 *{
@@ -74,3 +72,18 @@ main .my-leftBox i{
         width: 150px;
     }
 }
+
+/* ? MAIN BOX----------------------------- */
+main .my-rightBox{
+    height: calc(100dvh - var(--header-height));
+    width: calc(100vw - var(--sidebar-width));
+    background-color: #f8f9fa;
+}
+
+main .my-rightBox .my-topBox{
+    background-color: #2171e7;
+}
+
+/* ? MY COLORS---------------------------- */
+.my-bgBlue        { background-color: #1c5bb9;}
+.my-bgLightblue   { background-color: #2171e7;}

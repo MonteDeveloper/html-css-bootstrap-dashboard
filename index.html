@@ -61,36 +61,65 @@
     </header>
 
     <main>
-        <!-- SIDEBAR -->
-        <div class="my-leftBox text-white text-center d-flex flex-column justify-content-between py-4">
-            <!-- TOP -->
-            <div class="d-flex flex-column gap-3 align-items-start mx-auto">
-                <a class="text-white text-decoration-none" href="#">
-                    <i class="fa-solid fa-house"></i>
-                    <span class="ms-2 d-none d-md-inline-block">Home</span>
-                </a>
-                <a class="text-white text-decoration-none" href="#">
-                    <i class="fa-solid fa-chart-column"></i>
-                    <span class="ms-2 d-none d-md-inline-block">Stats</span>
-                </a>
-                <a class="text-white text-decoration-none" href="#">
-                    <i class="fa-solid fa-signal"></i>
-                    <span class="ms-2 d-none d-md-inline-block">Signals</span>
-                </a>
+        <div class="d-flex">
+            <!-- SIDEBAR -->
+            <div class="my-leftBox text-white text-center d-flex flex-column justify-content-between py-4">
+                <!-- TOP -->
+                <div class="d-flex flex-column gap-3 align-items-start mx-auto">
+                    <a class="text-white text-decoration-none" href="#">
+                        <i class="fa-solid fa-house"></i>
+                        <span class="ms-2 d-none d-md-inline-block">Home</span>
+                    </a>
+                    <a class="text-white text-decoration-none" href="#">
+                        <i class="fa-solid fa-chart-column"></i>
+                        <span class="ms-2 d-none d-md-inline-block">Stats</span>
+                    </a>
+                    <a class="text-white text-decoration-none" href="#">
+                        <i class="fa-solid fa-signal"></i>
+                        <span class="ms-2 d-none d-md-inline-block">Signals</span>
+                    </a>
+                </div>
+
+                <!-- BOTTOM -->
+                <div>
+                    <a class="text-white text-decoration-none" href="#">
+                        <i class="fa-solid fa-gear"></i>
+                        <span class="ms-2 d-none d-md-inline-block">Admin</span>
+                    </a>
+                </div>
             </div>
 
-            <!-- BOTTOM -->
-            <div>
-                <a class="text-white text-decoration-none" href="#">
-                    <i class="fa-solid fa-gear"></i>
-                    <span class="ms-2 d-none d-md-inline-block">Admin</span>
-                </a>
+            <!-- MAIN CONTENT -->
+            <div class="my-rightBox overflow-auto flex-fill">
+                <!-- TOP BAR -->
+                <div class="my-topBox container-fluid">
+                    <div class="row text-white py-3 g-4">
+                        <div class="col-12 d-flex">
+                            <a class="text-white text-decoration-none" href="#">
+                                Nuovo Studente
+                                <i class="fa-solid fa-plus p-2 ms-2 border rounded"></i>
+                            </a>   
+                        </div>
+                        <div class="col-12">
+                            <div class="d-flex align-items-baseline">
+                                <h1 class="m-0">Boolean</h1>
+                                <span class="badge rounded-pill my-bgBlue ms-2">Piano blaze</span>
+                            </div>
+                            <div>
+                                <span class="badge rounded-pill my-bgBlue">3 app</span>
+                                <i class="fa-solid fa-angles-right m-1"></i>
+                                <span class="badge rounded-pill my-bgBlue">
+                                    <i class="fa-solid fa-plus"></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <p class="m-0">Studenti online negli ultimi 30 minuti</p>
+                            <p class="h1">125</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
-
-        <!-- MAIN CONTENT -->
-        <div class="my-rightBox">
-
         </div>
     </main>
 
