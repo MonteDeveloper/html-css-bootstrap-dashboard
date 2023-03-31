@@ -8,10 +8,16 @@
     --sidebar-width: 70px;
 }
 
-/* uso DynamicVH per risolvere problema altezza mobile */
-/* ! ATTENZIONE: funzione nuova e ancora poco supportata */
 main .my-leftBox, main .my-rightBox{
-    height: calc(100dvh - var(--header-height));
+    height: calc(100vh - var(--header-height));
+}
+
+@media screen and (max-width: 500px){
+    /* uso DynamicVH per risolvere problema altezza mobile */
+    /* ! ATTENZIONE: funzione nuova e ancora poco supportata */
+    main .my-leftBox, main .my-rightBox{
+        height: calc(100dvh - var(--header-height));
+    }
 }
 
 a, button{
