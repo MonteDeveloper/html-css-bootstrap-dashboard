@@ -12,7 +12,7 @@
 }
 
 a, button{
-    transition: background-color, color .2s !important;
+    transition: background-color, color .3s !important;
 }
 
 /* general static header height */
