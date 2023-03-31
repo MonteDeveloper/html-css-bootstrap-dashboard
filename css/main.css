@@ -11,6 +11,10 @@
     --sidebar-width: 70px;
 }
 
+a, button{
+    transition: background-color, color .2s !important;
+}
+
 /* general static header height */
 header .my-leftBox{
     height: var(--header-height);
@@ -68,6 +72,11 @@ main .my-leftBox{
 /* align the link text in the sidebar */
 main .my-leftBox i{
     width: 15px;
+}
+
+main .my-leftBox a:hover{
+    background-color: white;
+    color: black !important;
 }
 
 @media screen and (min-width: 768px) {
