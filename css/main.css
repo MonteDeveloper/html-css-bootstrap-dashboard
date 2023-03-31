@@ -1,6 +1,3 @@
-/* ! DEBUG--------------------------------- */
-
-
 /* * GENERAL------------------------------- */
 *{
     font-family: 'Roboto', sans-serif;
@@ -9,6 +6,12 @@
 :root{
     --header-height: 70px;
     --sidebar-width: 70px;
+}
+
+/* uso DynamicVH per risolvere problema altezza mobile */
+/* ! ATTENZIONE: funzione nuova e ancora poco supportata */
+main .my-leftBox, main .my-rightBox{
+    height: calc(100dvh - var(--header-height));
 }
 
 a, button{
@@ -64,7 +67,6 @@ header .my-middleBox input:focus{
 /* ? SIDEBAR------------------------------- */
 main .my-leftBox{
     width: var(--sidebar-width);
-    height: calc(100dvh - var(--header-height));
     background-image: url(../img/sidebar-bg.png);
     background-color: #0d2337;
 }
@@ -87,7 +89,6 @@ main .my-leftBox a:hover{
 
 /* ? MAIN BOX----------------------------- */
 main .my-rightBox{
-    height: calc(100dvh - var(--header-height));
     width: calc(100vw - var(--sidebar-width));
     background-color: #f8f9fa;
 }
