@@ -88,8 +88,8 @@ main .my-leftBox a:hover{
 }
 
 @media screen and (min-width: 768px) {
-    main .my-leftBox{
-        width: 150px;
+    :root{
+        --sidebar-width: 150px
     }
 }
 
